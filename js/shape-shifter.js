@@ -1,6 +1,9 @@
 
 'use strict';
-var simulateDefault = 'Shape|Shifter|Type|to start|#icon thumbs-up|#countdown 3||';
+  var simulateDefault = 'WCON|We|Make|IT|happen|#icon thumbs-up|#countdown 3||';
+
+//var simulateDefault = 'WCON|We|Make|IT|happen|#icon thumbs-up|WCON';
+
 var S = {
   init: function () {
     var action = window.location.href,
