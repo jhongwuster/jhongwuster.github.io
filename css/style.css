@@ -4484,7 +4484,7 @@ footer p {
   background-color: #34495e;
   color: #fff;
   margin-left: 42px;
-  min-height: 316px;
+
   padding: 0 30px 30px;
 }
 .footer-banner .footer-title {
@@ -4773,3 +4773,41 @@ footer p {
 		
 		
 	}
+	
+	.go-up{
+
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    right: 8px;
+    bottom: 100px;
+    background: #1abc9c;
+    cursor: pointer;
+    text-align: center;
+    z-index: 9999;
+    color: #ffffff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+}
+
+.go-up:hover{
+
+    background-color: #3794c0;
+}
+
+.go-up i{
+    color: #ffffff;
+}
+.go-up:hover i{
+    -webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+
+}
