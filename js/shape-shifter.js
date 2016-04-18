@@ -27,7 +27,10 @@ var S = {
 };
 	
 window.addEventListener('load', function () {
-  S.init();
+	var loadInt = setInterval(function () {
+      S.init();  
+	  clearInterval(loadInt);
+      }, 1000);
 });
 
 
@@ -243,7 +246,7 @@ S.UI = (function () {
       default:
         S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'What?' : current));
       }
-    }, 2000, sequence.length);
+    }, 3000, sequence.length);
   }
 
   function checkInputWidth() {
