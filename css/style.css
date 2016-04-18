@@ -4811,3 +4811,57 @@ footer p {
     animation: toBottomFromTop 0.4s forwards;
 
 }
+
+/*============================
+WORK SECTION STYLES
+==============================*/
+
+#work .caegories a.active {
+background-color: transparent;
+color: #fff;
+}
+
+.isotope .isotope-item {
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+transition-duration: 0.8s;
+}
+
+#work .work-wrapper {
+padding: 10px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-bottom: 40px;
+background-color: rgba(255, 255, 255, 0.1);
+cursor: pointer;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+border: 1px solid rgb(57, 171, 111);
+}
+
+#work .work-wrapper:hover {
+background-color: transparent;
+border: 1px solid rgb(57, 171, 111);
+
+opacity: .80; /* standard: ff gt 1.5, opera, safari */
+-ms-filter: "alpha(opacity=80)"; /* ie 8 */
+filter: alpha(opacity=80); /* ie lt 7 */
+-khtml-opacity: .80; /* safari 1.x */
+-moz-opacity: .80; /* ff lt 1.5, netscape */
+
+}
+
+#work .work-wrapper h4 {
+padding-top: 10px;
+}
+
+.btn-custom-two {color: #fff;background-color: #34495e;border: 2px solid #34495e;}
+
+.btn-custom-two:hover {border: 2px solid #1abc9c;text-decoration: none;color: #FFFF;background-color: #1abc9c;}
+
+.pad-bottom {
+padding-bottom: 60px;
+}
