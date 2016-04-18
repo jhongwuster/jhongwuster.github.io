@@ -1,8 +1,7 @@
 
 'use strict';
-  var simulateDefault = 'WCON|We|Make|IT|happen|#icon thumbs-up|#countdown 3||';
-
-//var simulateDefault = 'WCON|We|Make|IT|happen|#icon thumbs-up|WCON';
+  var simulateDefault = 'wcon|We|Make|IT|Happen|#icon thumbs-up|wcon';
+//var simulateDefault = 'WCON|We|Make|IT|happen|#icon thumbs-up|#countdown 3||';
 
 var S = {
   init: function () {
