@@ -1,6 +1,9 @@
 (function ($) {
     "use strict";
-	var $container = $('#work-div');
+	$(document).ready(function () {
+
+	$(window).load(function() {
+		var $container = $('#work-div');
 $container.isotope({
 filter: '*',
 animationOptions: {
@@ -25,6 +28,8 @@ queue: false
 });
 return false;
 });
-
+	});
+	
+	});
 	
 })(jQuery); //end
