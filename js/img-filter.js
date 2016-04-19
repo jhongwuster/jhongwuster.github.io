@@ -7,18 +7,9 @@ animationOptions: {
 duration: 750,
 easing: 'linear',
 queue: false,
-  // set columnWidth to a percentage of container width
-  masonry: { columnWidth: $container.width() / 5 }
 }
 });
 
-$(window).on('debouncedresize', function(){
-	$container.isotope({
-
-  // set columnWidth to a percentage of container width
-  masonry: { columnWidth: $container.width() / 5 }
-});
-});
 
 $('.caegories a').click(function () {
 $('.caegories .active').removeClass('active');
