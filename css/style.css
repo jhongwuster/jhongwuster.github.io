@@ -4816,18 +4816,26 @@ footer p {
 WORK SECTION STYLES
 ==============================*/
 
-#work .caegories a.active {
-background-color: transparent;
-color: #fff;
+#story .isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height;
+     -moz-transition-property: height;
+          transition-property: height;
 }
 
 .isotope .isotope-item {
--webkit-transition-duration: 0.8s;
--moz-transition-duration: 0.8s;
-transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
 }
 
-#work .work-wrapper {
+#story .work-wrapper {
 padding: 10px;
 border-radius: 5px;
 -moz-border-radius: 5px;
@@ -4839,10 +4847,11 @@ cursor: pointer;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
-border: 1px solid rgb(57, 171, 111);
+margin: 0 1.515% 1.875em; /* 15px 30px */
+  max-width: 29%;
 }
 
-#work .work-wrapper:hover {
+#story .work-wrapper:hover {
 background-color: transparent;
 border: 1px solid rgb(57, 171, 111);
 
@@ -4854,7 +4863,7 @@ filter: alpha(opacity=80); /* ie lt 7 */
 
 }
 
-#work .work-wrapper h4 {
+#story .work-wrapper h4 {
 padding-top: 10px;
 }
 
