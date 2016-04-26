@@ -14,6 +14,7 @@ $(window).load(function() {
 })
 
 $(document).ready(function() {
+	
 		//animated logo
 		$(".navbar-brand").hover(function () {
 			$(this).toggleClass("animated shake");
@@ -53,6 +54,7 @@ $(document).ready(function() {
 
 		//SmothScroll
 		$('a[href*=#]').click(function() {
+			/*
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 			&& location.hostname == this.hostname) {
 					var $target = $(this.hash);
@@ -62,7 +64,7 @@ $(document).ready(function() {
 							$('html,body').animate({scrollTop: targetOffset}, 600);
 							return false;
 					}
-			}
+			}*/
 		});
 		
 		//Subscribe
