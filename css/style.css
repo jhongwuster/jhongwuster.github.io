@@ -4799,7 +4799,7 @@ footer p {
 
 .go-up:hover{
 
-    background-color: #3794c0;
+    background-color: #48c9b0;
 }
 
 .go-up i{
@@ -4866,7 +4866,7 @@ filter: alpha(opacity=80); /* ie lt 7 */
 
 .btn-custom-two {color: #fff;background-color: #1abc9c;border: 2px solid #1abc9c;}
 
-.btn-custom-two:hover {border: 2px solid #3794c0;text-decoration: none;color: #FFFF;background-color: #3794c0;}
+.btn-custom-two:hover {border: 2px solid #48c9b0;text-decoration: none;color: #FFFF;background-color: #48c9b0;}
 
 .pad-bottom {
 padding-bottom: 60px;
