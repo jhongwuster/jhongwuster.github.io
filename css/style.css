@@ -4906,4 +4906,8 @@ a.btn-goback{
 }
 }
 
+#preview_frame{
+	width:100%;position: relative; height: 100%; border: none;padding-top: 72px;
+}
+
 
