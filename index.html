@@ -104,13 +104,12 @@
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="#about">About</a></li>
-					<li class="menuItem"><a href="#solution">Solution</a></li>
-					<li class="menuItem"><a href="#Methodology">Methodology</a></li>
-					<li class="menuItem"><a href="#story">Story</a></li>
-					<li class="menuItem"><a href="#career">Career</a></li>
-					<li class="menuItem"><a href="#contact">Contact</a></li>
+					<li class="menuItem"><a class="menuBtn" href="#about">About</a></li>
+					<li class="menuItem"><a class="menuBtn" href="#solution">Solution</a></li>
+					<li class="menuItem"><a class="menuBtn" href="#Methodology">Methodology</a></li>
+					<li class="menuItem"><a class="menuBtn" href="#story">Story</a></li>
+					<li class="menuItem"><a class="menuBtn" href="#career">Career</a></li>
+					<li class="menuItem"><a class="menuBtn" href="#contact">Contact</a></li>
 
 				</ul>
 			</div>
@@ -655,6 +654,14 @@
 	<script src="js/jquery.magnific-popup.js"></script> 
 	<script src="js/shape-shifter.js"></script>
 	<script src="js/custom.js"></script>
+	<script type="text/javascript">
+	
+    $(".menuBtn").click(function(){
+        $(".collapse").collapse('hide');
+    });
+    
+	
+	</script>
 </body>
 
 </html>
