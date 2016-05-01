@@ -3,7 +3,7 @@
     
 // to top
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 400) {
+        if ($(this).scrollTop() > 1200) {
             $('.go-up').fadeIn();
         } else {
             $('.go-up').fadeOut();

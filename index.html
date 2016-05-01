@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> 
-<html> <!--<![endif]-->
+<html ng-app="wconApp"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
@@ -38,6 +38,8 @@
 	<link rel="stylesheet" href="css/magnific-popup.css"> 
 	
 	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<script src="js/angular.js"></script> 
+	<script src="js/controller/methodology.js"></script>  
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -285,41 +287,35 @@
 
 
 	<!-- Methodology	-->
-    <div id ="Methodology" class="content-section-a">
+    <div id ="Methodology" class="content-section-a" ng-controller="MethCtrl">
 
         <div class="container">
 
 				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/ipad.png" alt="">
+                    <img class="img-responsive " ng-src="{{currentImg}}" alt="">
                 </div>
 
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
                     <h3 class="section-heading">Methodology</h3>
 					<div class="sub-title lead3">We are truly qualified<br><br> </div>
-                    <p class="lead">
-						WCON uses the following technology and methodology in managing and delivering IT services: <br> <br>
-
-						<b>Enterprise/IT Service management: </b>  <br> <br>
-
-						SAFe, ITSM<br> <br>
-
-						<b>Project Management: </b> <br> <br>
-
-						Agile/Scrum, PMP, DevOps <br> <br>
-
-						<b>Technology: </b><br> <br>
-
-						HTML5, Java, PHP, C#, .NET, MapReduce <br> <br>
-
-						<b>Database:</b> <br> <br>
-
-						MangoDB, Oracle, Vertica, MySQL, SQL Sever, Access
-
-
+                    <p class="lead" ng-show="!showDescription">
+						WCON uses the following technology and methodology in managing and delivering IT services:
+						<div ng-repeat="method in methods" ng-show="!showDescription">
+						    <b>{{method.type}}: </b>  
+							<br>
+							<a class="sub-method" href="javascript:void(0);" ng-repeat="subMethod in method.subMethods" ng-click="clickMethod(subMethod.description, subMethod.img)">{{subMethod.name}}   </a>
+						</div>
 					</p>
-
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+					
+					<div class="lead method-lead-desp" ng-show="showDescription">
+					    <div>
+							{{currentDescription}}
+						</div>
+						<div>
+							<a class="btn btn-embossed btn-primary btn-method-goback" href="javascript:void(0);" ng-click="goBack()" role="button">Go back</a>
+						</div>
+						
+					</div> 
 				</div>
             </div>
         </div>
@@ -595,7 +591,7 @@
 
 	<div class="go-up">
                 <a href="" ><i class="fa fa-chevron-up"></i></a>    
-            </div>
+	</div>
     <!-- JavaScript -->
     <script src="js/jquery-1.11.1.js"></script>
 	<script src="js/jquery.isotope.js"></script>
@@ -625,6 +621,7 @@
 	<!-- Magnific Popup core JS file -->
 	<script src="js/jquery.magnific-popup.js"></script> 
 	<script src="js/shape-shifter.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 
 </html>
