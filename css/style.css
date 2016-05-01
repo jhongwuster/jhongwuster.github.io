@@ -4983,7 +4983,8 @@ color: rgb(57, 171, 111);
 }
 
 #Methodology .sub-method{
-	color:
+	color:#1abc9c;
+	text-decoration: underline;
 }
 
 .btn-method-goback{
