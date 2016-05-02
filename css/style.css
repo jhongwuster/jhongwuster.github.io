@@ -4996,3 +4996,14 @@ color: #1abc9c;
 .method-lead-desp div{
 	display:block;
 }
+
+.method-img{
+	margin-top:17%;
+}
+
+@media screen and (max-width: 769px) {
+	.method-img{
+	margin-top:0;
+	}
+
+}

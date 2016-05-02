@@ -74,8 +74,8 @@ phonecatApp.controller('MethCtrl', function($scope) {
 		[
 			{
 				'name': 'HTML5',
-				'description': 'Fast just got faster with Technology.',
-				'img' :'img/method/1.jpg'
+				'description': 'Your modern, popular browsers all support HTML5 (Chrome, Firefox, Safari IE9 and Opera) and the HTML5 doctype was created so that all browsers, even the really old and annoying ones, er, IE6 can use it. Fortunately, HTML5 is being built to make things easier and more cross browser friendly so in those older IE browsers that don’t like the new tags we can just simply add a Javascript shiv that will allow them to use the new elements.',
+				'img' :'img/method/html5.png'
 			},
 			{
 				'name': 'Java',
@@ -105,8 +105,8 @@ phonecatApp.controller('MethCtrl', function($scope) {
 		[
 			{
 				'name': 'MangoDB',
-				'description': 'Fast just got faster with MangoDB.',
-				'img' :'img/method/1.jpg'
+				'description': 'MongoDB is an open source software that falls under the "Document" category. MongoDB helps develop applications faster because it uses tables; stored procedures are no longer required. It offers advantage to developers because earlier the tables were to be translated to the object model before they could be used in the application. Now, the object model and the stored data have the same structure, similar to the JSON format, called BSON. MongoDB also supports scalability and provides various options to handle data consistency.',
+				'img' :'img/method/mongo.png'
 			},
 			{
 				'name': 'Oracle',
