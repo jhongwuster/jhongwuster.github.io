@@ -4717,7 +4717,7 @@ footer p {
 
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		p{text-align: center;}
+		p{text-align: left;}
 		
 		h1, .h1 {
 			font-size: 50px;
@@ -4727,7 +4727,7 @@ footer p {
 			font-size: 16px;
 			text-align:center
 		}
-		.col-sm-4 {text-align:center;width: 33.3333%;float:left}
+		.summary-col {text-align:left;width: 33.3333%;float:left}
 		.col-sm-4 h{display:none}
 		.col-sm-4 p{display:none}
 		.tworow{margin-top: 0;}
