@@ -1,691 +1,769 @@
-<!-- saved from url=(0014)about:internet -->
+﻿<!-- saved from url=(0014)about:internet -->
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> 
-<html ng-app="wconApp"> <!--<![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html ng-app="wconApp">
+<!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="WCON - We Make IT Happen ">
     <meta name="author" content="">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
     <title>WCON – We Make IT happen</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />`
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>`
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
- 
+
     <!-- Custom Google Web Font -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet" type="text/css">
+
     <!-- Custom CSS-->
     <link href="css/general.css" rel="stylesheet">
-	
-	 <!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	
-	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
-	<script src="js/angular.js"></script> 
-	<script src="js/controller/methodology.js"></script>  
-	<!--[if IE 9]>
-		<script src="js/PIE_IE9.js"></script>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="js/PIE_IE678.js"></script>
-	<![endif]-->
 
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
+    <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <script src="js/modernizr-2.8.3.min.js"></script> <!-- Modernizr /-->
+    <script src="js/angular.js"></script>
+    <script src="js/controller/methodology.js"></script>
+    <!--[if IE 9]>
+        <script src="js/PIE_IE9.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="js/PIE_IE678.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
 
-	<!-- Preloader -->
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
-	
-	<!-- FullScreen -->
-    <div id="home" class="intro-header">
-		<canvas class="movie"></canvas>
-					<div class="help" style="display:none"></div> 
-					<div class="ui" style="display:none">
-						<input class="ui-input" type="text" />
-						<span class="ui-return"></span>
-					</div>
-					<div class="overlay">
-  						<div class="tabs">
-   			 				<div class="tabs-labels">
-   			 					<span class="tabs-label"></span>
-   			 					<span class="tabs-label"></span>
-   			 					<span class="tabs-label"></span>
-   			 				</div>
-		    				<div class="tabs-panels">
-		     					 <ul class="tabs-panel commands">
-		        					
-		      					 </ul>
-		   					 </div>
-				  		</div>
-					</div>
-		<div class="col-xs-12 text-center abcen wow fadeIn">
-			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#summary"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
-			</div>
-		</div>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status"></div>
+</div>
+
+<!-- FullScreen -->
+<div id="home" class="intro-header">
+    <canvas class="movie"></canvas>
+    <div class="help" style="display: none"></div>
+    <div class="ui" style="display: none">
+        <input class="ui-input" type="text"/>
+        <span class="ui-return"></span>
     </div>
-	
-	<!-- NavBar-->
-	<nav class="navbar-default" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#home">WCON</a>
-			</div>
+    <div class="overlay">
+        <div class="tabs">
+            <div class="tabs-labels">
+                <span class="tabs-label"></span>
+                <span class="tabs-label"></span>
+                <span class="tabs-label"></span>
+            </div>
+            <div class="tabs-panels">
+                <ul class="tabs-panel commands">
 
-			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li class="menuItem"><a class="menuBtn" href="#about">About</a></li>
-					<li class="menuItem"><a class="menuBtn" href="#solution">Solution</a></li>
-					<li class="menuItem"><a class="menuBtn" href="#Methodology">Methodology</a></li>
-					<li class="menuItem"><a class="menuBtn" href="#story">Story</a></li>
-					<li class="menuItem"><a class="menuBtn" href="#career">Career</a></li>
-					<li class="menuItem"><a class="menuBtn" href="#contact">Contact</a></li>
-
-				</ul>
-			</div>
-		   
-		</div>
-	</nav> 
-	
-	<!-- solution summary -->
-	<div id="summary" class="content-section-b" style="border-top: 0">
-		<div class="container">
-
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>WCON</h2>
-				<p class="lead" style="margin-top:0">We design for your value</p>
-			</div>
-			
-			<div class="row">
-			
-				<div class="col-sm-4 wow fadeInDown text-center summary-col">
-				  <a href="#about"><img class="rotate" src="img/icon/bulb.svg" alt="Generic placeholder image"></a>
-				  <a href="#about"><h3>About</h3></a>
-				  <p class="lead">A certified IT Solution company with cost saving model to make your IT happen. </p>
-
-				  <p><a class="btn btn-embossed btn-primary view" role="button" href="#about">View Details</a></p>
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center summary-col">
-				   <a href="#solution"><img class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image"></a>
-				   <a href="#solution"><h3>Solution</h3></a>
-				   <p class="lead">Our solution offerings to help your business grow.  </p>
-				   <p><a class="btn btn-embossed btn-primary view" role="button" href="#solution">View Details</a></p>
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center summary-col">
-				   <a href="#Methodology"><img class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image"></a>
-				   <a href="#Methodology"><h3>Methodology</h3></a>
-				   <p class="lead">A technical section about how we manage IT projects and processes.</p>
-				   <p><a class="btn btn-embossed btn-primary view" role="button" href="#Methodology">View Details</a></p>
-				</div><!-- /.col-lg-4 -->
-				
-			</div><!-- /.row -->
-				
-			<div class="row tworow">
-			
-				<div class="col-sm-4  wow fadeInDown text-center summary-col">
-				  <a href="#story"><img class="rotate" src="img/icon/book.svg" alt="Generic placeholder image"></a>
-				  <a href="#story"><h3>Story</h3></a>
-				  <p class="lead">Showcases to our previous customers. </p>
-				  <p><a class="btn btn-embossed btn-primary view" role="button" href="#story">View Details</a></p>
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-4 wow fadeInDown text-center summary-col">
-					<a href="#career"><img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image"></a>
-					<a href="#career"><h3>Career</h3></a>
-					<p class="lead">We need you if you are truly technical.</p>
-					<p><a class="btn btn-embossed btn-primary view" role="button" href="#career">View Details</a></p>
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-4 wow fadeInDown text-center summary-col">
-				   <a href="#contact"><img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image"></a>
-				   <a href="#contact"><h3>Contact</h3></a>
-				   <p class="lead">Address, contact number and emails. </p>
-				   <p><a class="btn btn-embossed btn-primary view" role="button" href="#contact">View Details</a></p>
-				</div><!-- /.col-lg-4 -->
-				
-
-				
-			</div><!-- /.row -->
-		</div>
-	</div>
-
-	<!-- About -->
-	<div id="about" class="content-section-a">
-
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 wow fadeInLeftBig">
-					<div id="owl-demo-1" class="owl-carousel">
-						<a href="img/map.jpg" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/map.jpg" alt="">
-							</div>
-						</a>
-						<a href="img/pmp.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/pmp.png" alt="">
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">
-					<h3 class="section-heading">About WCON</h3>
-					<div class="sub-title lead3">Why choose WCON<br> </div>
-					<p class="lead">
-						Established in 2012, by a group of IT professionals, who worked amongst global top brands for 10+ years, such as HP, ShengDa.
-						WCON currently has team over 20 people, co-located in Sydney, Shanghai and Fujian China. <br><br>
-						Our core value stream is to "Make Your IT Happen" with a balanced cost.
-						We offer "Design Onshore, Code Offshore" mode to save your cost.<br><br>
-						We are truly a technical team. 60% of our resources are certified with one of the qualifications:
-						PMP, SAFe Agile, SCJP, and Oracle.
-					</p>
-					<!--
-                    <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
-                        <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-
-                        -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Solution -->
-	<div id="solution" class="content-section-b">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-					<h2>Solution</h2>
-					<p class="lead" style="margin-top:0">We make IT happen</p>
-				</div>
-
-				<!-- websites -->
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate">
-							<i class="fa fa-desktop fa-4x "> </i>
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Creative Websites </h3>
-							<p> Creative and responsive website that works on your mobile device, desktop, laptop, PDA or Cloud, we have a solution for ALL.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- Consulting -->
-				<div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate">
-							<i class="fa fa-heart fa-4x "> </i>
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Go-IT Consultings </h3>
-							<p> WCON offers free IT consulting services about how to use IT to save your labor cost, increase your online sales, and improve your company process.</p>
-						</div>
-					</div>
-				</div>
-
-				</div>
-
-			<div class="row tworow">
-
-				<!-- Consulting -->
-
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate">
-							<i class="fa fa-magic fa-4x "> </i>
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Automated Applications </h3>
-							<p>
-								The value of IT applications is to save your labor cost, prevent manual error, and simplify your process management:<br>
-								<b>E-upload:</b> Promote e-upload to import your data in bulk from excel, pdf, word etc.<br>
-								<b>E-report:</b> Generate your accounting reports electronically, such as invoice/receipt, sales report, profit report, monthly report etc.<br>
-								<b>E-process:</b> Update the status of your business process online and share your process to your team and your customer on their ubiquitous device via the Internet..
-
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- E-commerce -->
-
-				<div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate">
-							<i class="fa fa-picture-o fa-4x "> </i>
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3>  E-Commerce Solutions </h3>
-							<p>
-								We have a solution for both entry level and senior level E-Commerce customers.<br>
-
-								<b>Entry Level customer:</b><br>
-
-								What entry level customer wants is to get on to the online sales ASAP with less money spent. This includes sole traders and small businesses.
-								WCON has existing and re-usable E-commerce compoment and framework that save your delopment timeline and budget.<br>
-
-								<b>Senior Level customer:</b><br>
-
-								An E-Commerce customer will be more interested in security, stablebility, user experience and interactive promotion based on user experience to increase sales revenue.
-								WCON has solid experience on taking all these into our design of your online services solutions.
-
-
-							</p>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-		</div>
-	</div>
-
-
-	<!-- Methodology	-->
-    <div id ="Methodology" class="content-section-a" ng-controller="MethCtrl">
-
-        <div class="container">
-
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive method-img" ng-src="{{currentImg}}" alt="">
-                </div>
-
-                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
-                    <h3 class="section-heading">Methodology</h3>
-					<div class="sub-title lead3">We are truly qualified<br><br> </div>
-                    <p class="lead" ng-show="!showDescription">
-						WCON uses the following technology and methodology in managing and delivering IT services:
-						<div ng-repeat="method in methods" ng-show="!showDescription">
-						    <b>{{method.type}}: </b>  
-							<br>
-							<a class="sub-method" href="javascript:void(0);" ng-repeat="subMethod in method.subMethods" ng-click="clickMethod(subMethod.description, subMethod.img)">{{subMethod.name}}   </a>
-						</div>
-					</p>
-					
-					<div class="lead method-lead-desp" ng-show="showDescription">
-					    <div>
-							{{currentDescription}}
-						</div>
-						<div>
-							<a class="btn btn-embossed btn-primary btn-method-goback" href="javascript:void(0);" ng-click="goBack()" role="button">Go back</a>
-						</div>
-						
-					</div> 
-				</div>
+                </ul>
             </div>
         </div>
     </div>
-
-	<!-- Story -->
-	<div id="story" class="content-section-b">
-		<div class="container">
-	<div class="row text-center header animate-in" data-anim-type="fade-in-up">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-	<h2>Story</h2>
-	<p class="lead" style="margin-top:0">We are proud to help you succeed</p>
-	</div>
-	</div>
-	<div class="row text-center animate-in" data-anim-type="fade-in-up" >
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pad-bottom">
-	<div class="caegories">
-<a href="#" data-filter="*" class="active btn btn-custom btn-custom-two btn-sm">All</a>
-<a href="#" data-filter=".website" class="btn btn-custom btn-custom-two btn-sm">Website</a>
-<a href="#" data-filter=".eComm" class="btn btn-custom btn-custom-two btn-sm">E-Commerce</a>
-<a href="#" data-filter=".app" class="btn btn-custom btn-custom-two btn-sm" >Application</a>
-<a href="#" data-filter=".eMarket" class="btn btn-custom btn-custom-two btn-sm" >E-Marketing</a>
-</div>
-	</div>
-	</div>
-	<div class="row text-center animate-in" data-anim-type="fade-in-up" id="work-div">
-
-<div class="work-wrapper website eComm">
-
-<a class="fancybox-media" title="Wissun / 明一商城" href="stories/preview_1.html" target="_blank">
-
-<img src="img/works/1.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4>Wissun / 明一商城</h4>
-
-</div>
-
-<div class="work-wrapper website eComm">
-
-<a class="fancybox-media" title="Nitago / 你他购" href="stories/preview_2.html" target="_blank">
-
-<img src="img/works/2.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4>Nitago / 你他购 </h4>
-</div>
-
-<div class="work-wrapper website eComm">
-
-<a class="fancybox-media" title="7GoMall / 7购女装" href="stories/preview_3.html" target="_blank">
-
-<img src="img/works/3.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4>7GoMall / 7购女装</h4>
-</div>
-
-<div class="work-wrapper website">
-
-<a class="fancybox-media" title="Etime Express / E时代快递" href="stories/preview_4.html" target="_blank">
-
-<img src="img/works/4.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4>Etime Express / E时代快递</h4>
-</div>
-
-<div class="work-wrapper app">
-
-<a class="fancybox-media" title="Etime Express Management System / 快递内部管理系统" href="stories/preview_5.html" target="_blank">
-
-<img src="img/works/5.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4>Etime Express Management System / 快递内部管理系统</h4>
-</div>
-
-<div class="work-wrapper eMarket">
-
-<a class="fancybox-media" title="Image Title Goes Here" href="stories/preview_6.html">
-
-<img src="img/works/6.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4>Morbi mollis lectus et ipsum</h4>
-
-</div>
-</div>
-
-
-	</div>
-	
-	<!-- Career -->
-	<div id ="career" class="content-section-a">
-
-        <!--div class="container">
-
-             <div class="row">
-			 
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/doge.png" alt="">
-                </div>
-			 
-                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Career</h3>
-                    <p class="lead">Join us if you have passion about creating first class software
-					</p>
-					
-					<ul class="descp lead2">
-						<li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-						<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-						<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
-					</ul>
-				</div>           
-            </div>
-			<p><a class="btn btn-embossed btn-primary" id="career_details" role="button">View Details</a></p>
-        </div-->
-		<div class="container">
-			<div class="row text-center header animate-in" data-anim-type="fade-in-up">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h2>Career </h2>
-					<p class="lead" style="margin-top:0">Join us if you are serious about quality</p><br>
-				</div>
-			</div>
-			<div class="row animate-in" data-anim-type="fade-in-up">
-
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<div class="team-wrapper">
-						<div class="team-inner" style="background-image: url('img/joinus/2.jpg')" >
-							<a href="#" target="_blank" > <i class="fa fa-desktop" ></i></a>
-						</div>
-						<div class="description">
-							<h3> Lead UI Designer</h3>
-							<h5> <strong> HTML, CSS - Sydney </strong></h5>
-							<p>
-
-								As a Lead UX Designer you'll be tasked with bringing your experience and creative mind to the mix, pushing boundaries and making complex interactions work for the user.
-								<ul>
-									<li>• Minimum 5 years’ professional experience UX and UI Design</li>
-									<li>• Proven skills in Adobe Photoshop & Illustrator (Sketch as a bonus)</li>
-									<li>• Highly competent with front end codding HTML5, CSS (LESS or SASS)</li>
-									<li>• Basic understanding of JavaScript (Angular as a bonus)</li>
-									<li>• A broad portfolio of work that demonstrates your skills in UXD</li>
-								</ul>
-
-							Contact Email: info@wcon.com.au
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<div class="team-wrapper">
-						<div class="team-inner" style="background-image: url('img/joinus/1.jpg')" >
-							<a href="#" target="_blank" > <i class="fa fa-windows" ></i></a>
-						</div>
-						<div class="description">
-							<h3>Senior .Net Developer</h3>
-							<h5> <strong> .Net - Sydney </strong></h5>
-							<p>
-								You will have the opportunity to lead on all aspects of the full software development lifecycle including the ability to provide your expertise to ensure client's needs are met.
-							<ul>
-								<li>• Minimum 5 years’ professional experience in .NET </li>
-								<li>• 2+ years experience with Azure.</li>
-								<li>• Design and deliver end to end software solutions for clients using .Net from proof of concept to end product.</li>
-								<li>• Outstanding technical writing skills, with good ability to communicate with non-technical professionals.</li>
-								<li>• Bachelor degree or above</li>
-							</ul>
-
-							Contact Email: info@wcon.com.au
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<div class="team-wrapper">
-						<div class="team-inner" style="background-image: url('img/joinus/3.jpg')" >
-							<a href="#" target="_blank" > <i class="fa fa-apple" ></i></a>
-						</div>
-						<div class="description">
-							<h3> Senior IOS Developer</h3>
-							<h5> <strong> IOS - Sydney </strong></h5>
-							<p>
-								We are looking for an experienced senior developer who has strong opinions on system architecture and the technical knowledge to back them up.
-							<ul>
-								<li>• 5+ years’ professional experience in IOS </li>
-								<li>• Swift and Objective-C experience is a must.</li>
-								<li>• Familiar with iOS architecture and iOS UI libraries..</li>
-								<li>• Hands on experience with iOS media frameworks and video playback </li>
-								<li>• Andorid development experience is a plus</li>
-							</ul>
-
-							Contact Email: info@wcon.com.au
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="col-xs-12 text-center abcen wow fadeIn">
+        <div class="button_down ">
+            <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#summary">
+                <img class="img_scroll" src="img/icon/circle.png" alt="">
+            </a>
+        </div>
     </div>
+</div>
 
-	<!-- Contact -->
-	<div id="contact" class="content-section-b">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Contact</h2>
-				<p class="lead" style="margin-top:0">We can make your life better or easier</p>
-			</div>
-			
-			<form role="form" action="" method="post" >
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="InputName">Your Name</label>
-						<div class="input-group">
-							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
+<!-- NavBar-->
+<nav class="navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">WCON</a>
+        </div>
 
-					<div class="form-group">
-						<label for="InputName">Your Mobile</label>
-						<div class="input-group">
-							<input type="text" class="form-control" name="InputMobile" id="InputMobile" placeholder="Enter Mobile" required>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputEmail">Your Email</label>
-						<div class="input-group">
-							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputMessage">Message</label>
-						<div class="input-group">
-							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
+        <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="menuItem">
+                    <a class="menuBtn" href="#about">About</a>
+                </li>
+                <li class="menuItem">
+                    <a class="menuBtn" href="#solution">Solution</a>
+                </li>
+                <li class="menuItem">
+                    <a class="menuBtn" href="#Methodology">Methodology</a>
+                </li>
+                <li class="menuItem">
+                    <a class="menuBtn" href="#story">Story</a>
+                </li>
+                <li class="menuItem">
+                    <a class="menuBtn" href="#career">Career</a>
+                </li>
+                <li class="menuItem">
+                    <a class="menuBtn" href="#contact">Contact</a>
+                </li>
 
-					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
-				</div>
-			</form>
-			
-			<hr class="featurette-divider hidden-lg">
-				<div class="col-md-5 col-md-push-1 address">
-					<address>
-					<h3>Office Location</h3>
-					<p class="lead"><a href="https://www.google.com.au/maps/place/Town+Hall/@-33.8736819,151.2047579,17z/data=!4m2!3m1!1s0x6b12ae3c2965d745:0x61fd9a8d0c7d88c">Town Hall<br>
-					Sydney, NSW 2000</a><br><br>
-					<!--
-					Fax: XXX-XXX-YYYY</p>
-					-->
-					</address>
-					<b>Phone:</b>  043-439-2841<br><br>
-					<b>Email:</b>   jim.w@wcon.com.au
+            </ul>
+        </div>
 
-					<!-- Social
-					<h3>Social</h3>
-					<li class="social"> 
-					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
-					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
-					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
-					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
-					</li>
-					-->
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	
-    <footer>
-      <div class="container">
+    </div>
+</nav>
+
+<!-- solution summary -->
+<div id="summary" class="content-section-b" style="border-top: 0">
+    <div class="container">
+
+        <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+            <h2>WCON</h2>
+            <p class="lead" style="margin-top: 0">We design for your value</p>
+        </div>
+
         <div class="row">
-          <div class="col-md-7">
-            <h3 class="footer-title"></h3>
-	   
-          </div> <!-- /col-xs-7 -->
 
-          <div class="col-md-5">
-            <div class="footer-banner">
-              <h3 class="footer-title">WCON</h3>
-              <ul>
-                <li>Created by WCON Pty. Ltd. </li>
-				<li>All rights reserved</li>
-              </ul>
+            <div class="col-sm-4 wow fadeInDown text-center summary-col">
+                <a href="#about">
+                    <img class="rotate" src="img/icon/letter.svg" alt="Generic placeholder image">
+                </a>
+                <a href="#about">
+                    <h3>About</h3>
+                </a>
+                <p class="lead">A certified IT Solution company with cost saving model to make your IT happen. </p>
+
+                <p>
+                    <a class="btn btn-embossed btn-primary view" role="button" href="#about">View Details</a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-sm-4 wow fadeInDown text-center summary-col">
+                <a href="#solution">
+                    <img class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
+                </a>
+                <a href="#solution">
+                    <h3>Solution</h3>
+                </a>
+                <p class="lead">Our solution offerings to help your business grow. </p>
+                <p>
+                    <a class="btn btn-embossed btn-primary view" role="button" href="#solution">View Details</a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-sm-4 wow fadeInDown text-center summary-col">
+                <a href="#Methodology">
+                    <img class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
+                </a>
+                <a href="#Methodology">
+                    <h3>Methodology</h3>
+                </a>
+                <p class="lead">A technical section about how we manage IT projects and processes.</p>
+                <p>
+                    <a class="btn btn-embossed btn-primary view" role="button" href="#Methodology">View Details</a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+
+        </div><!-- /.row -->
+
+        <div class="row tworow">
+
+            <div class="col-sm-4  wow fadeInDown text-center summary-col">
+                <a href="#story">
+                    <img class="rotate" src="img/icon/medal.svg" alt="Generic placeholder image">
+                </a>
+                <a href="#story">
+                    <h3>Story</h3>
+                </a>
+                <p class="lead">Showcases to our previous customers. </p>
+                <p>
+                    <a class="btn btn-embossed btn-primary view" role="button" href="#story">View Details</a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-sm-4 wow fadeInDown text-center summary-col">
+                <a href="#career">
+                    <img class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
+                </a>
+                <a href="#career">
+                    <h3>Career</h3>
+                </a>
+                <p class="lead">We need you if you are truly technical.</p>
+                <p>
+                    <a class="btn btn-embossed btn-primary view" role="button" href="#career">View Details</a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-sm-4 wow fadeInDown text-center summary-col">
+                <a href="#contact">
+                    <img class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
+                </a>
+                <a href="#contact">
+                    <h3>Contact</h3>
+                </a>
+                <p class="lead">Address, contact number and emails. </p>
+                <p>
+                    <a class="btn btn-embossed btn-primary view" role="button" href="#contact">View Details</a>
+                </p>
+            </div><!-- /.col-lg-4 -->
+
+
+        </div><!-- /.row -->
+    </div>
+</div>
+
+<!-- About -->
+<div id="about" class="content-section-a">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 wow fadeInLeftBig">
+                <div id="owl-demo-1" class="owl-carousel">
+                    <a href="img/map.jpg" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/map.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="img/pmp.png" class="image-link">
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="img/pmp.png" alt="">
+                        </div>
+                    </a>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </footer>
 
-	<div class="go-up">
-                <a href="" ><i class="fa fa-chevron-up"></i></a>    
-	</div>
-    <!-- JavaScript -->
-    <script src="js/jquery-1.11.1.js"></script>
-	<script src="js/jquery.isotope.js"></script>
-    <script src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/img-filter.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/script.js"></script>
-	<!-- StikyMenu -->
-	<script src="js/stickUp.min.js"></script>
-	<script type="text/javascript">
-	  jQuery(function($) {
-		$(document).ready( function() {
-		  $('.navbar-default').stickUp();
-		  
-		});
-	  });
-	
-	</script>
-	<!-- Smoothscroll -->
-	<script type="text/javascript" src="js/jquery.corner.js"></script> 
-	<script src="js/wow.min.js"></script>
-	<script>
-	 new WOW().init();
-	</script>
-	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_inflow.js"></script>
-	<!-- Magnific Popup core JS file -->
-	<script src="js/jquery.magnific-popup.js"></script> 
-	<script src="js/shape-shifter.js"></script>
-	<script src="js/custom.js"></script>
-	<script type="text/javascript">
-	
-    $(".menuBtn").click(function(){
+            <div class="col-sm-6 wow fadeInRightBig" data-animation-delay="200">
+                <h3 class="section-heading">About WCON</h3>
+                <div class="sub-title lead3">Why choose WCON<br>
+                </div>
+                <p class="lead">
+                    Established in 2012, by a group of IT professionals, who worked amongst global top brands for 10+ years, such as HP, ShengDa.
+                    WCON currently has team over 20 people, co-located in Sydney, Shanghai and Fujian China. <br><br>
+                    Our core value stream is to "Make Your IT Happen" with a balanced cost.
+                    We offer "Design Onshore, Code Offshore" mode to save your cost.<br><br>
+                    We are truly a technical team. 60% of our resources are certified with one of the qualifications:
+                    PMP, SAFe Agile, SCJP, and Oracle.
+                </p>
+                <!--
+                <p>
+                    <a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+                    <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a>
+                </p>
+
+                -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Solution -->
+<div id="solution" class="content-section-b">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                <h2>Solution</h2>
+                <p class="lead" style="margin-top: 0">We make IT happen</p>
+            </div>
+
+            <!-- websites -->
+            <div class="col-sm-6  block wow bounceIn">
+                <div class="row">
+                    <div class="col-md-4 box-icon rotate">
+                        <i class="fa fa-desktop fa-4x "> </i>
+                    </div>
+                    <div class="col-md-8 box-ct">
+                        <h3> Creative Websites </h3>
+                        <p>
+                            Creative and responsive website that works on your mobile device, desktop, laptop, PDA or Cloud, we have a solution for ALL.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Consulting -->
+            <div class="col-sm-6 block wow bounceIn">
+                <div class="row">
+                    <div class="col-md-4 box-icon rotate">
+                        <i class="fa fa-heart fa-4x "> </i>
+                    </div>
+                    <div class="col-md-8 box-ct">
+                        <h3> Go-IT Consultings </h3>
+                        <p> WCON offers free IT consulting services about how to use IT to save your labor cost, increase your online sales, and improve your company process.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row tworow">
+
+            <!-- Consulting -->
+
+            <div class="col-sm-6  block wow bounceIn">
+                <div class="row">
+                    <div class="col-md-4 box-icon rotate">
+                        <i class="fa fa-magic fa-4x "> </i>
+                    </div>
+                    <div class="col-md-8 box-ct">
+                        <h3> Automated Applications </h3>
+                        <p>
+                            The value of IT applications is to save your labor cost, prevent manual error, and simplify your process management:<br>
+                            <b>E-upload:</b> Promote e-upload to import your data in bulk from excel, pdf, word etc.<br>
+                            <b>E-report:</b> Generate your accounting reports electronically, such as invoice/receipt, sales report, profit report, monthly report etc.<br>
+                            <b>E-process:</b> Update the status of your business process online and share your process to your team and your customer on their ubiquitous device via the Internet..
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- E-commerce -->
+
+            <div class="col-sm-6 block wow bounceIn">
+                <div class="row">
+                    <div class="col-md-4 box-icon rotate">
+                        <i class="fa fa-picture-o fa-4x "> </i>
+                    </div>
+                    <div class="col-md-8 box-ct">
+                        <h3> E-Commerce Solutions </h3>
+                        <p>
+                            We have a solution for both entry level and senior level E-Commerce customers.<br>
+
+                            <b>Entry Level customer:</b><br>
+
+                            What entry level customer wants is to get on to the online sales ASAP with less money spent. This includes sole traders and small businesses.
+                            WCON has existing and re-usable E-commerce compoment and framework that save your delopment timeline and budget.<br>
+
+                            <b>Senior Level customer:</b><br>
+
+                            An E-Commerce customer will be more interested in security, stablebility, user experience and interactive promotion based on user experience to increase sales revenue.
+                            WCON has solid experience on taking all these into our design of your online services solutions.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Methodology -->
+<div id="Methodology" class="content-section-a" ng-controller="MethCtrl">
+
+    <div class="container">
+
+        <div class="col-sm-6 pull-right wow fadeInRightBig">
+            <img class="img-responsive method-img" ng-src="{{currentImg}}" alt="">
+        </div>
+
+        <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
+            <h3 class="section-heading">Methodology</h3>
+            <div class="sub-title lead3">We are truly qualified<br><br>
+            </div>
+            <p class="lead" ng-show="!showDescription">
+                WCON uses the following technology and methodology in managing and delivering IT services:
+                <div ng-repeat="method in methods" ng-show="!showDescription">
+                    <b>{{method.type}}: </b>
+                    <br>
+                    <a class="sub-method" href="javascript:void(0);" ng-repeat="subMethod in method.subMethods" ng-click="clickMethod(subMethod.description, subMethod.img)">{{subMethod.name}} </a>
+                </div>
+            </p>
+
+            <div class="lead method-lead-desp" ng-show="showDescription">
+                <div style="white-space: pre-wrap"><p>{{currentDescription}}</p></div>
+                <div>
+                    <a class="btn btn-embossed btn-primary btn-method-goback" href="javascript:void(0);" ng-click="goBack()" role="button">Go back</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Story -->
+<div id="story" class="content-section-b">
+<div class="container">
+    <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Story</h2>
+            <p class="lead" style="margin-top: 0">We are proud to help you succeed</p>
+        </div>
+    </div>
+    <div class="row text-center animate-in" data-anim-type="fade-in-up">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pad-bottom">
+            <div class="caegories">
+                <a href="#" data-filter="*" class="active btn btn-custom btn-custom-two btn-sm">All</a>
+                <a href="#" data-filter=".website" class="btn btn-custom btn-custom-two btn-sm">Website</a>
+                <a href="#" data-filter=".eComm" class="btn btn-custom btn-custom-two btn-sm">E-Commerce</a>
+                <a href="#" data-filter=".app" class="btn btn-custom btn-custom-two btn-sm">Application</a>
+                <a href="#" data-filter=".eMarket" class="btn btn-custom btn-custom-two btn-sm">E-Marketing</a>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center animate-in" data-anim-type="fade-in-up" id="work-div">
+
+        <div class="work-wrapper website eComm">
+
+            <a class="fancybox-media" title="Wissun / 明一商城" href="stories/preview_1.html" target="_blank">
+
+                <img src="img/works/1.jpg" class="img-responsive img-rounded" alt=""/>
+            </a>
+
+            <h4>Wissun / 明一商城</h4>
+
+        </div>
+
+        <div class="work-wrapper website eComm">
+
+            <a class="fancybox-media" title="Nitago / 你他购" href="stories/preview_2.html" target="_blank">
+
+                <img src="img/works/2.jpg" class="img-responsive img-rounded" alt=""/>
+            </a>
+
+            <h4>Nitago / 你他购 </h4>
+        </div>
+
+        <div class="work-wrapper website eComm">
+
+            <a class="fancybox-media" title="7GoMall / 7购女装" href="stories/preview_3.html" target="_blank">
+
+                <img src="img/works/3.jpg" class="img-responsive img-rounded" alt=""/>
+            </a>
+
+            <h4>7GoMall / 7购女装</h4>
+        </div>
+
+        <div class="work-wrapper website">
+
+            <a class="fancybox-media" title="Etime Express / E时代快递" href="stories/preview_4.html" target="_blank">
+
+                <img src="img/works/4.jpg" class="img-responsive img-rounded" alt=""/>
+            </a>
+
+            <h4>Etime Express / E时代快递</h4>
+        </div>
+
+        <div class="work-wrapper app">
+
+            <a class="fancybox-media" title="Etime Express Management System / 快递内部管理系统" href="stories/preview_5.html" target="_blank">
+
+                <img src="img/works/5.jpg" class="img-responsive img-rounded" alt=""/>
+            </a>
+
+            <h4>Etime Express Management System / 快递内部管理系统</h4>
+        </div>
+
+        <div class="work-wrapper eMarket">
+
+            <a class="fancybox-media" title="Image Title Goes Here" href="stories/preview_6.html">
+
+                <img src="img/works/6.jpg" class="img-responsive img-rounded" alt=""/>
+            </a>
+
+            <h4>Morbi mollis lectus et ipsum</h4>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<!-- Career -->
+<div id="career" class="content-section-a">
+
+    <!--div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-6 pull-right wow fadeInRightBig">
+            <img class="img-responsive " src="img/doge.png" alt="">
+        </div>
+
+        <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
+            <h3 class="section-heading">Career</h3>
+            <p class="lead">
+                Join us if you have passion about creating first class software
+            </p>
+
+            <ul class="descp lead2">
+                <li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
+                <li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
+                <li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+            </ul>
+        </div>
+    </div>
+    <p>
+        <a class="btn btn-embossed btn-primary" id="career_details" role="button">View Details</a>
+    </p>
+    </div-->
+    <div class="container">
+        <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2>Career </h2>
+                <p class="lead" style="margin-top: 0">Join us if you are serious about quality</p><br>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('img/joinus/2.jpg')">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-desktop"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h3> Lead UI Designer</h3>
+                        <h5>
+                            <strong> HTML, CSS - Sydney </strong>
+                        </h5>
+                        <p>
+
+                            As a Lead UX Designer you'll be tasked with bringing your experience and creative mind to the mix, pushing boundaries and making complex interactions work for the user.
+                            <ul>
+                                <li>• Minimum 5 years’ professional experience UX and UI Design</li>
+                                <li>• Proven skills in Adobe Photoshop & Illustrator (Sketch as a bonus)</li>
+                                <li>• Highly competent with front end codding HTML5, CSS (LESS or SASS)</li>
+                                <li>• Basic understanding of JavaScript (Angular as a bonus)</li>
+                                <li>• A broad portfolio of work that demonstrates your skills in UXD</li>
+                            </ul>
+
+                            Contact Email: info@wcon.com.au
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('img/joinus/1.jpg')">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-windows"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h3>Senior .Net Developer</h3>
+                        <h5>
+                            <strong> .Net - Sydney </strong>
+                        </h5>
+                        <p>
+                            You will have the opportunity to lead on all aspects of the full software development lifecycle including the ability to provide your expertise to ensure client's needs are met.
+                            <ul>
+                                <li>• Minimum 5 years’ professional experience in .NET </li>
+                                <li>• 2+ years experience with Azure.</li>
+                                <li>• Design and deliver end to end software solutions for clients using .Net from proof of concept to end product.</li>
+                                <li>• Outstanding technical writing skills, with good ability to communicate with non-technical professionals.</li>
+                                <li>• Bachelor degree or above</li>
+                            </ul>
+
+                            Contact Email: info@wcon.com.au
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('img/joinus/3.jpg')">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-apple"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h3> Senior IOS Developer</h3>
+                        <h5>
+                            <strong> IOS - Sydney </strong>
+                        </h5>
+                        <p>
+                            We are looking for an experienced senior developer who has strong opinions on system architecture and the technical knowledge to back them up.
+                            <ul>
+                                <li>• 5+ years’ professional experience in IOS </li>
+                                <li>• Swift and Objective-C experience is a must.</li>
+                                <li>• Familiar with iOS architecture and iOS UI libraries..</li>
+                                <li>• Hands on experience with iOS media frameworks and video playback </li>
+                                <li>• Andorid development experience is a plus</li>
+                            </ul>
+
+                            Contact Email: info@wcon.com.au
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="content-section-b">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                <h2>Contact</h2>
+                <p class="lead" style="margin-top: 0">We can make your life better or easier</p>
+            </div>
+
+            <form role="form" action="" method="post">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="InputName">Your Name</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputName">Your Mobile</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="InputMobile" id="InputMobile" placeholder="Enter Mobile" required>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputEmail">Your Email</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputMessage">Message</label>
+                        <div class="input-group">
+                            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                        </div>
+                    </div>
+
+                    <input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+                </div>
+            </form>
+
+            <hr class="featurette-divider hidden-lg">
+            <div class="col-md-5 col-md-push-1 address">
+                <address>
+                    <h3>Office Location</h3>
+                    <p class="lead"><a href="https://www.google.com.au/maps/place/Town+Hall/@-33.8736819,151.2047579,17z/data=!4m2!3m1!1s0x6b12ae3c2965d745:0x61fd9a8d0c7d88c">
+                        Town Hall<br>
+                        Sydney, NSW 2000
+                    </a><br><br>
+                    <!--
+                    Fax: XXX-XXX-YYYY</p>
+                    -->
+                </address>
+                <b>Phone:</b> 043-439-2841<br><br>
+                <b>Email:</b> jim.w@wcon.com.au
+
+                <!-- Social
+                <h3>Social</h3>
+                <li class="social">
+                    <a href="#">
+                        <i class="fa fa-facebook-square fa-size"> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fa  fa-twitter-square fa-size"> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-google-plus-square fa-size"> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-flickr fa-size"> </i>
+                    </a>
+                </li>
+                -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h3 class="footer-title"></h3>
+
+            </div> <!-- /col-xs-7 -->
+
+            <div class="col-md-5">
+                <div class="footer-banner">
+                    <h3 class="footer-title">WCON</h3>
+                    <ul>
+                        <li>Created by WCON Pty. Ltd. </li>
+                        <li>All rights reserved</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="go-up">
+    <a href="">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+<!-- JavaScript -->
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/jquery.isotope.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/img-filter.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/script.js"></script>
+<!-- StikyMenu -->
+<script src="js/stickUp.min.js"></script>
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready(function() {
+            $('.navbar-default').stickUp();
+
+        });
+    });
+
+</script>
+<!-- Smoothscroll -->
+<script type="text/javascript" src="js/jquery.corner.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="js/classie.js"></script>
+<script src="js/uiMorphingButton_inflow.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/shape-shifter.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript">
+
+    $(".menuBtn").click(function() {
         $(".collapse").collapse('hide');
     });
-    
-	
-	</script>
+
+
+</script>
 </body>
 
 </html>

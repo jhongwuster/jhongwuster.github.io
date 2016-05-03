@@ -12,13 +12,13 @@ phonecatApp.controller('MethCtrl', function($scope) {
 		[
 			{
 				'name': 'SAFe (Scaled Agile Framework)',
-				'description': 'SAFe is a knowledge base of proven success patterns for implementing Lean-Agile software and systems development at enterprise scale. ' +
-				'It provides comprehensive guidance for work at the enterprise Portfolio, Value Stream, Program, and Team levels.' + '<' + 'br' + '>' +
+				'description': 'SAFe is a knowledge base of proven success patterns for implementing Lean-Agile software and systems development at enterprise scale.\n' +
+				'It provides comprehensive guidance for work at the enterprise Portfolio, Value Stream, Program, and Team levels.\n' +
 				'The core belief is simple: Better systems and software make the world a better place. Many enterprises - large ' +
-				'and small - are getting outstanding business benefits from applying SAFe. These typically include:' + '<' + 'br' + '>' +
-				'<' + 'li' + '>' +'20 - 50% increase in productivity' +
-				'<' + 'li' + '>' +'50%+ increases in quality ' +
-				'<' + 'li' + '>' +'30 - 75% faster time to market Measurable increases in employee engagement and job satisfaction.' +
+				'and small - are getting outstanding business benefits from applying SAFe. These typically include:\n\n'+ 
+				'• 20 - 50% increase in productivity\n' +
+				'• 50%+ increases in quality\n' +
+				'• 30 - 75% faster time to market Measurable increases in employee engagement and job satisfaction\n\n' +
 				'WCON is a certified SAFe provider to deliver training and coaching in daily project delivery'+
 				'For more information about SAFe framework, please visit: http://www.scaledagile.com/',
 				'img' :'img/method/SAFe.png'
