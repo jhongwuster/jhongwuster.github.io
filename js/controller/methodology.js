@@ -144,7 +144,7 @@ phonecatApp.controller('MethCtrl', function($scope) {
   $scope.showDescription = false;
   
   $scope.currentDescription = '';
-  $scope.currentImg = 'img/method/SAFe.png';
+  $scope.currentImg = 'img/method/combinedCertificates.jpg';
   
   $scope.clickMethod = function(description, img){
 	  $scope.showDescription = true;
@@ -156,7 +156,7 @@ phonecatApp.controller('MethCtrl', function($scope) {
   $scope.goBack = function(){
 	  $scope.showDescription = false;
 	  $scope.currentDescription = '';
-	  $scope.currentImg = 'img/method/SAFe.png';
+	  $scope.currentImg = 'img/method/combinedCertificates.jpg';
 	  
   }
 });
